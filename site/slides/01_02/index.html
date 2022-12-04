@@ -81,7 +81,7 @@
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">01_02</span>
-                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Installing Requirements</span>
+                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Project Setup</span>
                       </div>
                     </a>
                     <a class="flex-fill ms-3 text-end" style="color: #8C6621;" href="../../../?d=01_02&#">
@@ -458,26 +458,46 @@
           </aside>
         <main class="main col col-md-6 col-lg-8">
           <!-- .slide: data-state="layout-title" class="bg-dark"-->
-<h1 id="installing-requirements" tabindex="-1">Installing Requirements</h1>
+<h1 id="project-setup" tabindex="-1">Project Setup</h1>
+<div class="slide-link"><a href="https://go.raybo.org/GVS01_03"><i class="fab fa-slideshare"></i> go.raybo.org/GVS01_02</a></div>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
 <p>If you're used to using other terminals, it's a good idea to install the code command, it allows you to quickly open files with Visual Studio Code using the Code prefix</p>
 <hr>
 <h1 id="installations" tabindex="-1">Installations</h1>
+<hr>
+<h1 id="clean-repo" tabindex="-1">Clean Repo</h1>
 <ul>
-<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-<li><a href="https://git-scm.com/">Git</a></li>
-<li><a href="https://nodejs.org/">NodeJS</a></li>
+<li><a href="https://github.com/Rich-Harris/degit">Degit</a></li>
+</ul>
+<pre><code class="language-sh">cd ~/Desktop
+npx degit LinkedInLearning/css-scrolling-parallax-2835103.git vscodegit
+cd vscodegit                                    
+git init
+</code></pre>
+<blockquote>
+<blockquote></blockquote>
+</blockquote>
+<p>I'll be showing you some features of Git, and you can use any repository you own in order to take this course, but if you want to use one of our repositories, let me show you how to get a clean repository with no history.</p>
+<p>For this, I like to use a tool called degit from Rich Harris. Degit lets you clone a repository with no history. It assumes you're using GitHub, but you can also use other hosts, get specific branches.</p>
+<p>What I'm doing here is switching to the desktop, then asking npx to temporarily install degit and find a repository in the LinkedIn Learning account called css-scrolling-parallax and clone it into a folder called vscodegit.</p>
+<p>We'll need to initialize that repository with Git, so we'll switch to that folder, then we'll issue the <code>git init</code> command.</p>
+<hr>
+<h1 id="macos-code-command" tabindex="-1">MacOS Code Command</h1>
+<ul>
+<li><code>View:Command Palette</code></li>
+<li>Type in <code>Shell</code></li>
+<li>Install <code>code</code> command</li>
 </ul>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
-<h1 id="learning-goal" tabindex="-1">Learning Goal</h1>
 <h1 id="script" tabindex="-1">Script</h1>
-<p>The first thing I always do when I install Visual Studio code into a new computer, is to install the code shell command. This allows me to call the terminal inside VSCode from within my other terminals and easily call up folders.</p>
-<p>Installing the code command modifies my path and lets me quickly open up a project inside visual studio code.</p>
-<p>The easiest way to do this is to use the command palette and start typing shell. This will pull up the shell command options and you can choose to install and uninstall.</p>
+<p>If you're on a mac, adding the code command makes it easy to use VSCode from within my other terminals.</p>
+<p>You can easily get to the command by going to the view menu and choosing the Command Palette option. You can also check out the shortcut for your OS here.</p>
+<p>Type in shell, then choose the Install code command option.</p>
+<p>Now you can go to any terminal and pull up the contents of a Folder in Visual Studio Code by issuing the code command.</p>
 
         </main>
         <aside class="aside aside-supplemental col col-md-3 col-lg-2 d-none d-md-block">
@@ -486,13 +506,16 @@
             <div class="">
                 <ol>
                     
-                    <li><a href="#installing-requirements">Installing Requirements</a>
+                    <li><a href="#project-setup">Project Setup</a>
             		</li>
 
                     <li><a href="#installations">Installations</a>
             		</li>
 
-                    <li><a href="#learning-goal">Learning Goal</a>
+                    <li><a href="#clean-repo">Clean Repo</a>
+            		</li>
+
+                    <li><a href="#macos-code-command">MacOS Code Command</a>
             		</li>
 
                     <li><a href="#script">Script</a>
