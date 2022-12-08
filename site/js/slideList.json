@@ -30,60 +30,69 @@
     "title": "Staging and Committing" }
 ,{
     "filename": "03_03",
-    "title": "Diffing" }
+    "title": "Source Control" }
 ,{
     "filename": "03_04",
-    "title": "Resolving Merge Conflicts" }
+    "title": "Diffing" }
 ,{
     "filename": "03_05",
-    "title": "Pull Requests" }
-,{
-    "filename": "03_06",
-    "title": "Managing Issues" }
-,{
-    "filename": "03_07",
-    "title": "Local vs Remote" }
+    "title": "VS Code Logs" }
 ,{
     "filename": "04_01",
-    "title": "Git Graph Install" }
+    "title": "Pull Requests" }
 ,{
     "filename": "04_02",
-    "title": "Git Graph Navigation" }
+    "title": "Pull Requests" }
 ,{
     "filename": "04_03",
-    "title": "Git Graph Diffing" }
+    "title": "Pull Requests" }
+,{
+    "filename": "04_04",
+    "title": "Managing Issues" }
+,{
+    "filename": "04_05",
+    "title": "Local vs Remote" }
 ,{
     "filename": "05_01",
-    "title": "Git Lens Annotations" }
+    "title": "Git Graph Install" }
 ,{
     "filename": "05_02",
-    "title": "Managing Revisions" }
+    "title": "Git Graph Navigation" }
 ,{
     "filename": "05_03",
-    "title": "Interface Improvements" }
-,{
-    "filename": "05_04",
-    "title": "File History" }
-,{
-    "filename": "05_05",
-    "title": "Branches" }
-,{
-    "filename": "05_06",
-    "title": "Remote" }
-,{
-    "filename": "05_07",
-    "title": "Stashes" }
-,{
-    "filename": "05_08",
-    "title": "Rebasing" }
-,{
-    "filename": "05_09",
-    "title": "Contributors" }
-,{
-    "filename": "05_10",
-    "title": "Search and Compare" }
+    "title": "Git Graph Diffing" }
 ,{
     "filename": "06_01",
+    "title": "Git Lens Annotations" }
+,{
+    "filename": "06_02",
+    "title": "Managing Revisions" }
+,{
+    "filename": "06_03",
+    "title": "Interface Improvements" }
+,{
+    "filename": "06_04",
+    "title": "File History" }
+,{
+    "filename": "06_05",
+    "title": "Branches" }
+,{
+    "filename": "06_06",
+    "title": "Remote" }
+,{
+    "filename": "06_07",
+    "title": "Stashes" }
+,{
+    "filename": "06_08",
+    "title": "Rebasing" }
+,{
+    "filename": "06_09",
+    "title": "Contributors" }
+,{
+    "filename": "06_10",
+    "title": "Search and Compare" }
+,{
+    "filename": "07_01",
     "title": "Going further" }
 ,{
     "filename": "demo",
