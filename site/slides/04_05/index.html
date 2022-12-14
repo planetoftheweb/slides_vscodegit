@@ -245,11 +245,25 @@
                 
                 
                   <div class="d-flex justify-content-end align-items-right border-bottom p-2"  style="background-color:#F0C051;">
+                    <a class="text-decoration-none d-flex " href="../03_06/index.html">
+                      <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
+                      <div class="d-flex flex-column lh-1">
+                        <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">03_06</span>
+                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Copilot</span>
+                      </div>
+                    </a>
+                    <a class="flex-fill ms-3 text-end" style="color: #8C6621;" href="../../../?d=03_06&#">
+                      <i class="bi bi-collection-play-fill"></i>
+                    </a>
+                  </div>
+                
+                
+                  <div class="d-flex justify-content-end align-items-right border-bottom p-2"  style="background-color:#F0C051;">
                     <a class="text-decoration-none d-flex " href="../04_01/index.html">
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">04_01</span>
-                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Pull Requests</span>
+                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Merge Conflicts</span>
                       </div>
                     </a>
                     <a class="flex-fill ms-3 text-end" style="color: #8C6621;" href="../../../?d=04_01&#">
@@ -277,7 +291,7 @@
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">04_03</span>
-                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Pull Requests</span>
+                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Issues</span>
                       </div>
                     </a>
                     <a class="flex-fill ms-3 text-end" style="color: #8C6621;" href="../../../?d=04_03&#">
@@ -291,7 +305,7 @@
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">04_04</span>
-                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Managing Issues</span>
+                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">CodeSpaces</span>
                       </div>
                     </a>
                     <a class="flex-fill ms-3 text-end" style="color: #8C6621;" href="../../../?d=04_04&#">
@@ -305,7 +319,7 @@
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">04_05</span>
-                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Local vs Remote</span>
+                        <span class="fw-bold lh-1 text-white" style="font-family: Asap; font-size: 1.1em">Remote Explorer</span>
                       </div>
                     </a>
                     <a class="flex-fill ms-3 text-end" style="color: #8C6621;" href="../../../?d=04_05&#">
@@ -514,17 +528,21 @@
           </aside>
         <main class="main col col-md-6 col-lg-8">
           <!-- .slide: data-state="layout-title" class="bg-dark"-->
-<h1 id="local-vs-remote" tabindex="-1">Local vs Remote</h1>
+<h1 id="remote-explorer" tabindex="-1">Remote Explorer</h1>
 <div class="slide-link"><a href="https://go.raybo.org/GVS02_01"><i class="fab fa-slideshare"></i> go.raybo.org/GVS03_07</a></div>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
-<p>There are other tasks that you'd normally do on a remote tool like GitHub that you can manage directly in Visual Studio Code, let's take a look at some other ways to make you more efficient by shaving time off your tasks.</p>
+<p>The remote explorer allows you to work with projects in a virtual space without cloning them, that can be useful if you need to make a quick change.</p>
 <hr>
-<h2 id="local-vs-remote-1" tabindex="-1">Local vs Remote</h2>
+<h2 id="remote-explorer-1" tabindex="-1">Remote Explorer</h2>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
+<p>Debugging, terminals, and tasks - Not currently supported. Terminals open on your local file system and don't have access to the virtual file system of the remote repository.</p>
+<p>Limited language intelligence - Features like IntelliSense and Go to Definition may be impacted as many languages don't yet understand the virtualized environment of Remote Repositories.</p>
+<p>Search - GitHub search itself has limitations, such as not indexing branches. Remote Repositories can avoid this limitation and perform a full-text search by enabling indexing. Indexing pulls a shallow clone of the repository from GitHub and performs a full search locally, providing greater power than GitHub's fuzzy default-branch native search. You can enable indexing in Remote Repositories from the Search view.</p>
+<p>Extension limitations - Not all extensions can support running in a virtual workspace, but more extensions will support it over time. Extensions that depend heavily on access to local files cannot support this setup. See the virtual workspace section below for more details.</p>
 
         </main>
         <aside class="aside aside-supplemental col col-md-3 col-lg-2 d-none d-md-block">
@@ -533,7 +551,7 @@
             <div class="">
                 <ol>
                     
-                    <li><a href="#local-vs-remote">Local vs Remote</a>
+                    <li><a href="#remote-explorer">Remote Explorer</a>
             		</li>
                 </ol>
             </div>

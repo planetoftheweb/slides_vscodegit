@@ -76,8 +76,8 @@
                   </div>
                 
                 
-                  <div class="d-flex justify-content-end align-items-right border-bottom p-2"  style="background-color: #DC9F04" >
-                    <a class="text-decoration-none d-flex  text-light link-light " href="../01_02/index.html">
+                  <div class="d-flex justify-content-end align-items-right border-bottom p-2"  style="background-color:#F0C051;">
+                    <a class="text-decoration-none d-flex " href="../01_02/index.html">
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">01_02</span>
@@ -244,8 +244,8 @@
                   </div>
                 
                 
-                  <div class="d-flex justify-content-end align-items-right border-bottom p-2"  style="background-color:#F0C051;">
-                    <a class="text-decoration-none d-flex " href="../03_06/index.html">
+                  <div class="d-flex justify-content-end align-items-right border-bottom p-2"  style="background-color: #DC9F04" >
+                    <a class="text-decoration-none d-flex  text-light link-light " href="../03_06/index.html">
                       <i class="bi bi-file-text-fill me-2 lh-1" style="color: #8C6621;"></i>
                       <div class="d-flex flex-column lh-1">
                         <span class="fw-medium lh-1" style="color: #8C6621; font-size: .7em">03_06</span>
@@ -528,51 +528,26 @@
           </aside>
         <main class="main col col-md-6 col-lg-8">
           <!-- .slide: data-state="layout-title" class="bg-dark"-->
-<h1 id="project-setup" tabindex="-1">Project Setup</h1>
-<div class="slide-link"><a href="https://go.raybo.org/GVS01_03"><i class="fab fa-slideshare"></i> go.raybo.org/GVS01_02</a></div>
+<h1 id="copilot" tabindex="-1">Copilot</h1>
+<div class="slide-link"><a href="https://go.raybo.org/GVS02_01"><i class="fab fa-slideshare"></i> go.raybo.org/GVS03_04</a></div>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
-<p>Wether you're using the built-in terminal in Visual Studio Code or an external terminal, we'll need some code to try things out and if you have a mac I'll show you how to install an extra command.</p>
+<p>Copilot is a tool from GitHub that uses artificial intellingence to suggest code and write entire functions in real time.</p>
 <hr>
-<h1 id="installations" tabindex="-1">Installations</h1>
-<hr>
-<h1 id="clean-repo" tabindex="-1">Clean Repo</h1>
-<ul>
-<li><a href="https://github.com/Rich-Harris/degit">Degit</a></li>
-<li><a href="https://github.com/LinkedInLearning/css-scrolling-parallax-2835103">Scrolling Parallax</a></li>
-</ul>
-<pre><code class="language-sh">cd ~/Desktop
-npx degit LinkedInLearning/css-scrolling-parallax-2835103.git vscodegit
-cd vscodegit                                    
-git init
-git add .
-git commit -m &quot;First Commit&quot;
-</code></pre>
+<h2 id="copilot-1" tabindex="-1">Copilot</h2>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
-<p>This is one course where you probably want to use your own repository, but if you want to use <a href="https://github.com/LinkedInLearning/css-scrolling-parallax-2835103">one of ours</a>, let me show you how to get a clean repository with no history.</p>
-<p>I like to use a tool called degit from Rich Harris. Degit lets you clone a repository with no history. It assumes you're using GitHub, but you can also use other hosts, get specific branches. It's really powerful.</p>
-<p>You should try this with one of your own repositories.</p>
-<p>I'm going to use hyper, which is a great cross platform terminal, we'll get into the VSCode terminal soon enough.</p>
-<p>What I'm doing here is switching to the desktop, then asking npx to temporarily install degit and find a repository in the LinkedIn Learning account called css-scrolling-parallax and clone it into a folder called vscodegit.</p>
-<p>We'll need to initialize that repository with Git, so we'll switch to that folder, then we'll issue the <code>git init</code> command.</p>
-<hr>
-<h1 id="macos-code-command" tabindex="-1">MacOS Code Command</h1>
-<ul>
-<li><code>View:Command Palette</code></li>
-<li>Type in <code>Shell</code></li>
-<li>Install <code>code</code> command</li>
-</ul>
-<blockquote>
-<blockquote></blockquote>
-</blockquote>
-<h1 id="script" tabindex="-1">Script</h1>
-<p>If you're on a mac, adding the code command makes it easy to use VSCode from within my other terminals.</p>
-<p>You can easily get to the command by going to the view menu and choosing the Command Palette option. You can also check out the shortcut for your OS here.</p>
-<p>Type in shell, then choose the Install code command option.</p>
-<p>Now you can go to any terminal and pull up the contents of a Folder in Visual Studio Code by issuing the code command.</p>
+<p>There is a Visual Studio Code extension you can install, but before you do that, just note that this is not a free tool. It costs $100/a year or $10/per month.</p>
+<p>Let's install the extension and see what it's about.</p>
+<p>You can tell Copilot is running by looking at the status bar and looking for the copilot icon.</p>
+<p>Let's go to the Command Palette and look at the commands available.</p>
+<p>Now start writing some code like a loop, and you'll see that copilot is going to give you some recommendations.</p>
+<p>You can also ask it to do some code for you through comments.</p>
+<p>// slowly zoom items with a class of .card on rollover</p>
+<p>CoPilot is really smart and analyses the fact that I'm running different extensions and tries to give me code.</p>
+<p>If you want to learn more about CoPilot, take this course from my friend Ronnie Sheer. It's a pretty cool addition to your GitHub tools.</p>
 
         </main>
         <aside class="aside aside-supplemental col col-md-3 col-lg-2 d-none d-md-block">
@@ -581,19 +556,7 @@ git commit -m &quot;First Commit&quot;
             <div class="">
                 <ol>
                     
-                    <li><a href="#project-setup">Project Setup</a>
-            		</li>
-
-                    <li><a href="#installations">Installations</a>
-            		</li>
-
-                    <li><a href="#clean-repo">Clean Repo</a>
-            		</li>
-
-                    <li><a href="#macos-code-command">MacOS Code Command</a>
-            		</li>
-
-                    <li><a href="#script">Script</a>
+                    <li><a href="#copilot">Copilot</a>
             		</li>
                 </ol>
             </div>

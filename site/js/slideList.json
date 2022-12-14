@@ -41,20 +41,23 @@
     "filename": "03_05",
     "title": "VS Code Logs" }
 ,{
+    "filename": "03_06",
+    "title": "Copilot" }
+,{
     "filename": "04_01",
-    "title": "Pull Requests" }
+    "title": "Merge Conflicts" }
 ,{
     "filename": "04_02",
     "title": "Pull Requests" }
 ,{
     "filename": "04_03",
-    "title": "Pull Requests" }
+    "title": "Issues" }
 ,{
     "filename": "04_04",
-    "title": "Managing Issues" }
+    "title": "CodeSpaces" }
 ,{
     "filename": "04_05",
-    "title": "Local vs Remote" }
+    "title": "Remote Explorer" }
 ,{
     "filename": "05_01",
     "title": "Git Graph Install" }
