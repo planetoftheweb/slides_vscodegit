@@ -60,46 +60,16 @@
     "title": "Remote Explorer" }
 ,{
     "filename": "05_01",
-    "title": "Git Graph Install" }
+    "title": "Git Graph" }
 ,{
     "filename": "05_02",
-    "title": "Git Graph Navigation" }
+    "title": "Git History" }
 ,{
     "filename": "05_03",
-    "title": "Git Graph Diffing" }
+    "title": "Git Lens" }
 ,{
     "filename": "06_01",
-    "title": "Git Lens Annotations" }
-,{
-    "filename": "06_02",
-    "title": "Managing Revisions" }
-,{
-    "filename": "06_03",
-    "title": "Interface Improvements" }
-,{
-    "filename": "06_04",
-    "title": "File History" }
-,{
-    "filename": "06_05",
-    "title": "Branches" }
-,{
-    "filename": "06_06",
-    "title": "Remote" }
-,{
-    "filename": "06_07",
-    "title": "Stashes" }
-,{
-    "filename": "06_08",
-    "title": "Rebasing" }
-,{
-    "filename": "06_09",
-    "title": "Contributors" }
-,{
-    "filename": "06_10",
-    "title": "Search and Compare" }
-,{
-    "filename": "07_01",
-    "title": "Going further" }
+    "title": "Going Further" }
 ,{
     "filename": "demo",
     "title": "Opinionated Reveal.js" }
